@@ -32,6 +32,7 @@
       "WebApplication1/1.0.0": {
         "dependencies": {
           "Aplicacion": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Tools": "5.0.5",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -109,8 +110,7 @@
           "Microsoft.AspNetCore.StaticFiles": "3.1.0.0",
           "Microsoft.AspNetCore.WebSockets": "3.1.0.0",
           "Microsoft.AspNetCore.WebUtilities": "3.1.0.0",
-          "Microsoft.CSharp": "4.0.0.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.0.0",
+          "Microsoft.CSharp.Reference": "4.0.0.0",
           "Microsoft.Extensions.Configuration.Binder": "3.1.0.0",
           "Microsoft.Extensions.Configuration.CommandLine": "3.1.0.0",
           "Microsoft.Extensions.Configuration": "3.1.0.0",
@@ -311,6 +311,15 @@
           "WebApplication1.dll": {}
         }
       },
+      "Humanizer.Core/2.8.26": {
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {
+            "assemblyVersion": "2.8.0.0",
+            "fileVersion": "2.8.26.1919"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.EntityFrameworkCore/5.0.5": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "5.0.5",
@@ -344,6 +353,19 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/5.0.5": {},
+      "Microsoft.EntityFrameworkCore.Design/5.0.5": {
+        "dependencies": {
+          "Humanizer.Core": "2.8.26",
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.5"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll": {
+            "assemblyVersion": "5.0.5.0",
+            "fileVersion": "5.0.521.16102"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.InMemory/5.0.5": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.5"
@@ -356,6 +378,26 @@
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Relational/5.0.5": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.5",
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "5.0.5.0",
+            "fileVersion": "5.0.521.16102"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Relational.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/5.0.5": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "5.0.5"
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
@@ -388,6 +430,20 @@
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
       "Microsoft.Extensions.DependencyInjection/5.0.1": {
@@ -470,6 +526,33 @@
           "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
         }
       },
+      "MySqlConnector/1.3.7": {
+        "runtime": {
+          "lib/netcoreapp3.1/MySqlConnector.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.3.7.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/MySqlConnector.dll": {}
+        }
+      },
+      "Pomelo.EntityFrameworkCore.MySql/5.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.5",
+          "Microsoft.Extensions.DependencyInjection": "5.0.1",
+          "MySqlConnector": "1.3.7"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Pomelo.EntityFrameworkCore.MySql.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Pomelo.EntityFrameworkCore.MySql.dll": {}
+        }
+      },
       "System.Collections.Immutable/5.0.0": {
         "runtime": {
           "lib/netstandard2.0/System.Collections.Immutable.dll": {
@@ -528,7 +611,9 @@
       "Infraestructura/1.0.0": {
         "dependencies": {
           "Dominio": "1.0.0",
-          "Microsoft.EntityFrameworkCore.InMemory": "5.0.5"
+          "Microsoft.EntityFrameworkCore": "5.0.5",
+          "Microsoft.EntityFrameworkCore.InMemory": "5.0.5",
+          "Pomelo.EntityFrameworkCore.MySql": "5.0.0"
         },
         "runtime": {
           "Infraestructura.dll": {}
@@ -999,15 +1084,9 @@
         },
         "compileOnly": true
       },
-      "Microsoft.CSharp/4.0.0.0": {
+      "Microsoft.CSharp.Reference/4.0.0.0": {
         "compile": {
           "Microsoft.CSharp.dll": {}
-        },
-        "compileOnly": true
-      },
-      "Microsoft.Extensions.Configuration.Abstractions/3.1.0.0": {
-        "compile": {
-          "Microsoft.Extensions.Configuration.Abstractions.dll": {}
         },
         "compileOnly": true
       },
@@ -2171,6 +2250,20 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Humanizer.Core/2.8.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
+      "path": "humanizer.core/2.8.26",
+      "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
     "Microsoft.EntityFrameworkCore/5.0.5": {
       "type": "package",
       "serviceable": true,
@@ -2192,12 +2285,33 @@
       "path": "microsoft.entityframeworkcore.analyzers/5.0.5",
       "hashPath": "microsoft.entityframeworkcore.analyzers.5.0.5.nupkg.sha512"
     },
+    "Microsoft.EntityFrameworkCore.Design/5.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bEjgWGrEWtCQl1A3wx1xW+tALhuWHG+0hXFr9G+GrwkVLaZiW0tILqRx1DJ0y4t12dUf8tMsv0LMokKIf8IOFw==",
+      "path": "microsoft.entityframeworkcore.design/5.0.5",
+      "hashPath": "microsoft.entityframeworkcore.design.5.0.5.nupkg.sha512"
+    },
     "Microsoft.EntityFrameworkCore.InMemory/5.0.5": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-hJMrS3eI01HGx1zaTr8KSRB5yK+RkCammBGvQ7uKDjtuhqjA0iF8aBg0cGVDzSvN3Eh37ydc1ZH5JbblBcBs+g==",
       "path": "microsoft.entityframeworkcore.inmemory/5.0.5",
       "hashPath": "microsoft.entityframeworkcore.inmemory.5.0.5.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Relational/5.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D+9me6olfUKpti0WkMFsKk9T4uTPZ+3mg/NIwq1Fhp/qQAu9yg2FZTUa0O8ugGuiGyJHfi8tMvh+iCL0LTpG4g==",
+      "path": "microsoft.entityframeworkcore.relational/5.0.5",
+      "hashPath": "microsoft.entityframeworkcore.relational.5.0.5.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Tools/5.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YfEG6UQumR2+L/c2c/mdwNH9vRA2KscsCgKCI/REh8KZL65dfoRSkTzLknJ1ai+WK/GM8EI1eClfAyZCTIMhOQ==",
+      "path": "microsoft.entityframeworkcore.tools/5.0.5",
+      "hashPath": "microsoft.entityframeworkcore.tools.5.0.5.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
       "type": "package",
@@ -2212,6 +2326,13 @@
       "sha512": "sha512-/1qPCleFOkJe0O+xmFqCNLFYQZTJz965sVw8CUB/BQgsApBwzAUsL2BUkDvQW+geRUVTXUS9zLa0pBjC2VJ1gA==",
       "path": "microsoft.extensions.caching.memory/5.0.0",
       "hashPath": "microsoft.extensions.caching.memory.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ETjSBHMp3OAZ4HxGQYpwyGsD8Sw5FegQXphi0rpoGMT74S4+I2mm7XJEswwn59XAaKOzC15oDSOWEE8SzDCd6Q==",
+      "path": "microsoft.extensions.configuration.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection/5.0.1": {
       "type": "package",
@@ -2254,6 +2375,20 @@
       "sha512": "sha512-cI/VWn9G1fghXrNDagX9nYaaB/nokkZn0HYAawGaELQrl8InSezfe9OnfPZLcJq3esXxygh3hkq2c3qoV3SDyQ==",
       "path": "microsoft.extensions.primitives/5.0.0",
       "hashPath": "microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+    },
+    "MySqlConnector/1.3.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cceT5xpMPgInT8sVnmhZ62aouEux6dWJjOaMSsYW0TmLvK+gwG0eKw8J9NklTw+Q5Cch9Sd04OBux3GSITvABw==",
+      "path": "mysqlconnector/1.3.7",
+      "hashPath": "mysqlconnector.1.3.7.nupkg.sha512"
+    },
+    "Pomelo.EntityFrameworkCore.MySql/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5T1c5sjnzhryUwD647l209Fsvhfzu1R5vS9G26HuT6T8tEtli9xTBJInge+17Cqy2Q2XTYug+vVfTk3gNH5Zjw==",
+      "path": "pomelo.entityframeworkcore.mysql/5.0.0",
+      "hashPath": "pomelo.entityframeworkcore.mysql.5.0.0.nupkg.sha512"
     },
     "System.Collections.Immutable/5.0.0": {
       "type": "package",
@@ -2676,12 +2811,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.CSharp/4.0.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.Extensions.Configuration.Abstractions/3.1.0.0": {
+    "Microsoft.CSharp.Reference/4.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
