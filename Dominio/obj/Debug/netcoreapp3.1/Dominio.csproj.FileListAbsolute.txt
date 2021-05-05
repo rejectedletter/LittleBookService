@@ -7,3 +7,15 @@ C:\Users\mpluna\source\repos\LittleBookService\Dominio\obj\Debug\netcoreapp3.1\D
 C:\Users\mpluna\source\repos\LittleBookService\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\mpluna\source\repos\LittleBookService\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
 C:\Users\mpluna\source\repos\LittleBookService\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Joel Banegas\Source\Repos\LittleBookService\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\Joel Banegas\Source\Repos\LittleBookService\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Joel Banegas\Source\Repos\LittleBookService\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Joel Banegas\Source\Repos\LittleBookService\Dominio\obj\Debug\netcoreapp3.1\Dominio.csprojAssemblyReference.cache
+C:\Users\Joel Banegas\Source\Repos\LittleBookService\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\Joel Banegas\Source\Repos\LittleBookService\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\Joel Banegas\Source\Repos\LittleBookService\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Joel Banegas\Source\Repos\LittleBookService\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Joel Banegas\Source\Repos\LittleBookService\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Joel Banegas\Source\Repos\LittleBookService\Dominio\bin\Debug\netcoreapp3.1\Dominio.runtimeconfig.json
+C:\Users\Joel Banegas\Source\Repos\LittleBookService\Dominio\bin\Debug\netcoreapp3.1\Dominio.runtimeconfig.dev.json
+C:\Users\Joel Banegas\Source\Repos\LittleBookService\Dominio\obj\Debug\netcoreapp3.1\Dominio.genruntimeconfig.cache
