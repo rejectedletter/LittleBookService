@@ -4,9 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 namespace AccesoDatos
 {
-    public class ServiceContext 
+    public class ServiceContext : DbContext
     {
-        /*
         public DbSet<Book> Books { get; set; }
 
        // public Action<InMemoryDbContextOptionsBuilder> db = new Action<InMemoryDbContextOptionsBuilder>()
@@ -21,6 +20,6 @@ namespace AccesoDatos
             
         }
 
-        */
+
     }
 }

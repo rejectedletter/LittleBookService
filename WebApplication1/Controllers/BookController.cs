@@ -22,11 +22,11 @@ namespace WebApplication1.Controllers
         {
             _logger = logger;
         }
-        /*
+
         [HttpGet]
-        /*public List<Book> Get()
+        public List<Book> Get()
         {
            return bookService.GetAll();
-        }*/
+        }
     }
 }

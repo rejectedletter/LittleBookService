@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Joel Banegas\\Source\\Repos\\LittleBookService\\AccesoDatos\\Infraestructura.csproj": {}
+    "C:\\Users\\mpluna\\source\\repos\\LittleBookService\\AccesoDatos\\Infraestructura.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Joel Banegas\\Source\\Repos\\LittleBookService\\AccesoDatos\\Infraestructura.csproj": {
+    "C:\\Users\\mpluna\\source\\repos\\LittleBookService\\AccesoDatos\\Infraestructura.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joel Banegas\\Source\\Repos\\LittleBookService\\AccesoDatos\\Infraestructura.csproj",
+        "projectUniqueName": "C:\\Users\\mpluna\\source\\repos\\LittleBookService\\AccesoDatos\\Infraestructura.csproj",
         "projectName": "Infraestructura",
-        "projectPath": "C:\\Users\\Joel Banegas\\Source\\Repos\\LittleBookService\\AccesoDatos\\Infraestructura.csproj",
-        "packagesPath": "C:\\Users\\Joel Banegas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joel Banegas\\Source\\Repos\\LittleBookService\\AccesoDatos\\obj\\",
+        "projectPath": "C:\\Users\\mpluna\\source\\repos\\LittleBookService\\AccesoDatos\\Infraestructura.csproj",
+        "packagesPath": "C:\\Users\\mpluna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mpluna\\source\\repos\\LittleBookService\\AccesoDatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Joel Banegas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mpluna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\ProgramData\\UiPath\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Joel Banegas\\Source\\Repos\\LittleBookService\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\Joel Banegas\\Source\\Repos\\LittleBookService\\Dominio\\Dominio.csproj"
+              "C:\\Users\\mpluna\\source\\repos\\LittleBookService\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\mpluna\\source\\repos\\LittleBookService\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -47,23 +49,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.5, )"
-            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[5.0.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.5, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -85,20 +73,21 @@
         }
       }
     },
-    "C:\\Users\\Joel Banegas\\Source\\Repos\\LittleBookService\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\mpluna\\source\\repos\\LittleBookService\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joel Banegas\\Source\\Repos\\LittleBookService\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\mpluna\\source\\repos\\LittleBookService\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\Joel Banegas\\Source\\Repos\\LittleBookService\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\Joel Banegas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joel Banegas\\Source\\Repos\\LittleBookService\\Dominio\\obj\\",
+        "projectPath": "C:\\Users\\mpluna\\source\\repos\\LittleBookService\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\mpluna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mpluna\\source\\repos\\LittleBookService\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Joel Banegas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mpluna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -106,6 +95,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\ProgramData\\UiPath\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -125,12 +115,6 @@
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.InMemory": {
-              "target": "Package",
-              "version": "[5.0.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.5, )"
             }

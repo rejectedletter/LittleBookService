@@ -10,18 +10,3 @@ C:\Users\mpluna\source\repos\LittleBookService\AccesoDatos\obj\Debug\netcoreapp3
 C:\Users\mpluna\source\repos\LittleBookService\AccesoDatos\obj\Debug\netcoreapp3.1\Infraestructura.csproj.CopyComplete
 C:\Users\mpluna\source\repos\LittleBookService\AccesoDatos\obj\Debug\netcoreapp3.1\Infraestructura.dll
 C:\Users\mpluna\source\repos\LittleBookService\AccesoDatos\obj\Debug\netcoreapp3.1\Infraestructura.pdb
-C:\Users\Joel Banegas\Source\Repos\LittleBookService\AccesoDatos\bin\Debug\netcoreapp3.1\Infraestructura.deps.json
-C:\Users\Joel Banegas\Source\Repos\LittleBookService\AccesoDatos\bin\Debug\netcoreapp3.1\Infraestructura.dll
-C:\Users\Joel Banegas\Source\Repos\LittleBookService\AccesoDatos\bin\Debug\netcoreapp3.1\Infraestructura.pdb
-C:\Users\Joel Banegas\Source\Repos\LittleBookService\AccesoDatos\bin\Debug\netcoreapp3.1\Dominio.dll
-C:\Users\Joel Banegas\Source\Repos\LittleBookService\AccesoDatos\bin\Debug\netcoreapp3.1\Dominio.pdb
-C:\Users\Joel Banegas\Source\Repos\LittleBookService\AccesoDatos\obj\Debug\netcoreapp3.1\Infraestructura.csprojAssemblyReference.cache
-C:\Users\Joel Banegas\Source\Repos\LittleBookService\AccesoDatos\obj\Debug\netcoreapp3.1\Infraestructura.AssemblyInfoInputs.cache
-C:\Users\Joel Banegas\Source\Repos\LittleBookService\AccesoDatos\obj\Debug\netcoreapp3.1\Infraestructura.AssemblyInfo.cs
-C:\Users\Joel Banegas\Source\Repos\LittleBookService\AccesoDatos\obj\Debug\netcoreapp3.1\Infraestructura.csproj.CoreCompileInputs.cache
-C:\Users\Joel Banegas\Source\Repos\LittleBookService\AccesoDatos\obj\Debug\netcoreapp3.1\Infraestructura.csproj.CopyComplete
-C:\Users\Joel Banegas\Source\Repos\LittleBookService\AccesoDatos\obj\Debug\netcoreapp3.1\Infraestructura.dll
-C:\Users\Joel Banegas\Source\Repos\LittleBookService\AccesoDatos\obj\Debug\netcoreapp3.1\Infraestructura.pdb
-C:\Users\Joel Banegas\Source\Repos\LittleBookService\AccesoDatos\bin\Debug\netcoreapp3.1\Infraestructura.runtimeconfig.json
-C:\Users\Joel Banegas\Source\Repos\LittleBookService\AccesoDatos\bin\Debug\netcoreapp3.1\Infraestructura.runtimeconfig.dev.json
-C:\Users\Joel Banegas\Source\Repos\LittleBookService\AccesoDatos\obj\Debug\netcoreapp3.1\Infraestructura.genruntimeconfig.cache

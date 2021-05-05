@@ -8,7 +8,7 @@ namespace Aplicacion
 {
     public class BookService
     {
-        /*
+
         public BookService()
         {
             Add(new Book() { id = Guid.NewGuid(), title = "Catcher in a Rye.", author = "J. D. Sallinger", read = true });
@@ -35,6 +35,5 @@ namespace Aplicacion
                 context.SaveChangesAsync();
             }
         }
-        */
     }
 }
