@@ -1,0 +1,7 @@
+C:\Users\mpluna\source\repos\LittleBookService\WcfService1\bin\WcfService1.dll.config
+C:\Users\mpluna\source\repos\LittleBookService\WcfService1\bin\WcfService1.dll
+C:\Users\mpluna\source\repos\LittleBookService\WcfService1\bin\WcfService1.pdb
+C:\Users\mpluna\source\repos\LittleBookService\WcfService1\obj\Debug\WcfService1.csprojAssemblyReference.cache
+C:\Users\mpluna\source\repos\LittleBookService\WcfService1\obj\Debug\WcfService1.csproj.CoreCompileInputs.cache
+C:\Users\mpluna\source\repos\LittleBookService\WcfService1\obj\Debug\WcfService1.dll
+C:\Users\mpluna\source\repos\LittleBookService\WcfService1\obj\Debug\WcfService1.pdb

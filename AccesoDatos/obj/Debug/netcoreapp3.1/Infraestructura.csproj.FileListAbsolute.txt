@@ -1,0 +1,12 @@
+C:\Users\mpluna\source\repos\LittleBookService\AccesoDatos\bin\Debug\netcoreapp3.1\Infraestructura.deps.json
+C:\Users\mpluna\source\repos\LittleBookService\AccesoDatos\bin\Debug\netcoreapp3.1\Infraestructura.dll
+C:\Users\mpluna\source\repos\LittleBookService\AccesoDatos\bin\Debug\netcoreapp3.1\Infraestructura.pdb
+C:\Users\mpluna\source\repos\LittleBookService\AccesoDatos\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\mpluna\source\repos\LittleBookService\AccesoDatos\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\mpluna\source\repos\LittleBookService\AccesoDatos\obj\Debug\netcoreapp3.1\Infraestructura.csprojAssemblyReference.cache
+C:\Users\mpluna\source\repos\LittleBookService\AccesoDatos\obj\Debug\netcoreapp3.1\Infraestructura.AssemblyInfoInputs.cache
+C:\Users\mpluna\source\repos\LittleBookService\AccesoDatos\obj\Debug\netcoreapp3.1\Infraestructura.AssemblyInfo.cs
+C:\Users\mpluna\source\repos\LittleBookService\AccesoDatos\obj\Debug\netcoreapp3.1\Infraestructura.csproj.CoreCompileInputs.cache
+C:\Users\mpluna\source\repos\LittleBookService\AccesoDatos\obj\Debug\netcoreapp3.1\Infraestructura.csproj.CopyComplete
+C:\Users\mpluna\source\repos\LittleBookService\AccesoDatos\obj\Debug\netcoreapp3.1\Infraestructura.dll
+C:\Users\mpluna\source\repos\LittleBookService\AccesoDatos\obj\Debug\netcoreapp3.1\Infraestructura.pdb

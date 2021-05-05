@@ -1,0 +1,14 @@
+C:\Users\mpluna\source\repos\LittleBookService\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.deps.json
+C:\Users\mpluna\source\repos\LittleBookService\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.dll
+C:\Users\mpluna\source\repos\LittleBookService\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.pdb
+C:\Users\mpluna\source\repos\LittleBookService\Aplicacion\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\mpluna\source\repos\LittleBookService\Aplicacion\bin\Debug\netcoreapp3.1\Infraestructura.dll
+C:\Users\mpluna\source\repos\LittleBookService\Aplicacion\bin\Debug\netcoreapp3.1\Infraestructura.pdb
+C:\Users\mpluna\source\repos\LittleBookService\Aplicacion\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\mpluna\source\repos\LittleBookService\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csprojAssemblyReference.cache
+C:\Users\mpluna\source\repos\LittleBookService\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.AssemblyInfoInputs.cache
+C:\Users\mpluna\source\repos\LittleBookService\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.AssemblyInfo.cs
+C:\Users\mpluna\source\repos\LittleBookService\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\mpluna\source\repos\LittleBookService\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CopyComplete
+C:\Users\mpluna\source\repos\LittleBookService\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.dll
+C:\Users\mpluna\source\repos\LittleBookService\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.pdb

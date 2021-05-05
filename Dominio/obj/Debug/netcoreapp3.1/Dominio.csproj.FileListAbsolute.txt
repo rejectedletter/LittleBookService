@@ -1,0 +1,9 @@
+C:\Users\mpluna\source\repos\LittleBookService\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\mpluna\source\repos\LittleBookService\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\mpluna\source\repos\LittleBookService\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\mpluna\source\repos\LittleBookService\Dominio\obj\Debug\netcoreapp3.1\Dominio.csprojAssemblyReference.cache
+C:\Users\mpluna\source\repos\LittleBookService\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\mpluna\source\repos\LittleBookService\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\mpluna\source\repos\LittleBookService\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\mpluna\source\repos\LittleBookService\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\mpluna\source\repos\LittleBookService\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
