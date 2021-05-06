@@ -892,23 +892,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Joel Banegas\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\mpluna\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Joel Banegas\\Source\\Repos\\LittleBookService\\Aplicacion\\Aplicacion.csproj",
+      "projectUniqueName": "C:\\Users\\mpluna\\source\\repos\\LittleBookService\\Aplicacion\\Aplicacion.csproj",
       "projectName": "Aplicacion",
-      "projectPath": "C:\\Users\\Joel Banegas\\Source\\Repos\\LittleBookService\\Aplicacion\\Aplicacion.csproj",
-      "packagesPath": "C:\\Users\\Joel Banegas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Joel Banegas\\Source\\Repos\\LittleBookService\\Aplicacion\\obj\\",
+      "projectPath": "C:\\Users\\mpluna\\source\\repos\\LittleBookService\\Aplicacion\\Aplicacion.csproj",
+      "packagesPath": "C:\\Users\\mpluna\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mpluna\\source\\repos\\LittleBookService\\Aplicacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Joel Banegas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mpluna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -916,14 +917,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\ProgramData\\UiPath\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Joel Banegas\\Source\\Repos\\LittleBookService\\AccesoDatos\\Infraestructura.csproj": {
-              "projectPath": "C:\\Users\\Joel Banegas\\Source\\Repos\\LittleBookService\\AccesoDatos\\Infraestructura.csproj"
+            "C:\\Users\\mpluna\\source\\repos\\LittleBookService\\AccesoDatos\\Infraestructura.csproj": {
+              "projectPath": "C:\\Users\\mpluna\\source\\repos\\LittleBookService\\AccesoDatos\\Infraestructura.csproj"
             }
           }
         }

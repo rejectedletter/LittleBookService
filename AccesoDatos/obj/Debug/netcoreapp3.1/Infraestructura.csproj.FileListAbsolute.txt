@@ -25,3 +25,6 @@ C:\Users\Joel Banegas\Source\Repos\LittleBookService\AccesoDatos\obj\Debug\netco
 C:\Users\Joel Banegas\Source\Repos\LittleBookService\AccesoDatos\bin\Debug\netcoreapp3.1\Infraestructura.runtimeconfig.json
 C:\Users\Joel Banegas\Source\Repos\LittleBookService\AccesoDatos\bin\Debug\netcoreapp3.1\Infraestructura.runtimeconfig.dev.json
 C:\Users\Joel Banegas\Source\Repos\LittleBookService\AccesoDatos\obj\Debug\netcoreapp3.1\Infraestructura.genruntimeconfig.cache
+C:\Users\mpluna\source\repos\LittleBookService\AccesoDatos\bin\Debug\netcoreapp3.1\Infraestructura.runtimeconfig.json
+C:\Users\mpluna\source\repos\LittleBookService\AccesoDatos\bin\Debug\netcoreapp3.1\Infraestructura.runtimeconfig.dev.json
+C:\Users\mpluna\source\repos\LittleBookService\AccesoDatos\obj\Debug\netcoreapp3.1\Infraestructura.genruntimeconfig.cache

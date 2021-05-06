@@ -19,3 +19,6 @@ C:\Users\Joel Banegas\Source\Repos\LittleBookService\Dominio\obj\Debug\netcoreap
 C:\Users\Joel Banegas\Source\Repos\LittleBookService\Dominio\bin\Debug\netcoreapp3.1\Dominio.runtimeconfig.json
 C:\Users\Joel Banegas\Source\Repos\LittleBookService\Dominio\bin\Debug\netcoreapp3.1\Dominio.runtimeconfig.dev.json
 C:\Users\Joel Banegas\Source\Repos\LittleBookService\Dominio\obj\Debug\netcoreapp3.1\Dominio.genruntimeconfig.cache
+C:\Users\mpluna\source\repos\LittleBookService\Dominio\bin\Debug\netcoreapp3.1\Dominio.runtimeconfig.json
+C:\Users\mpluna\source\repos\LittleBookService\Dominio\bin\Debug\netcoreapp3.1\Dominio.runtimeconfig.dev.json
+C:\Users\mpluna\source\repos\LittleBookService\Dominio\obj\Debug\netcoreapp3.1\Dominio.genruntimeconfig.cache

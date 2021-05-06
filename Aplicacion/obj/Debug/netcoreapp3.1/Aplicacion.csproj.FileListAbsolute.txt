@@ -29,3 +29,6 @@ C:\Users\Joel Banegas\Source\Repos\LittleBookService\Aplicacion\obj\Debug\netcor
 C:\Users\Joel Banegas\Source\Repos\LittleBookService\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.runtimeconfig.json
 C:\Users\Joel Banegas\Source\Repos\LittleBookService\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.runtimeconfig.dev.json
 C:\Users\Joel Banegas\Source\Repos\LittleBookService\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.genruntimeconfig.cache
+C:\Users\mpluna\source\repos\LittleBookService\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.runtimeconfig.json
+C:\Users\mpluna\source\repos\LittleBookService\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.runtimeconfig.dev.json
+C:\Users\mpluna\source\repos\LittleBookService\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.genruntimeconfig.cache

@@ -1,10 +1,12 @@
 ﻿using Aplicacion;
 using Dominio.Entities;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Mime;
 using System.Threading.Tasks;
 
 namespace WebApplication1.Controllers
@@ -22,11 +24,28 @@ namespace WebApplication1.Controllers
         {
             _logger = logger;
         }
-        /*
+        
         [HttpGet]
-        /*public List<Book> Get()
+        public List<Book> Get()
         {
            return bookService.GetAll();
-        }*/
+        }
+
+       
+        [HttpPost]
+        [Consumes(MediaTypeNames.Application.Json)]
+        //[ProducesResponseType(StatusCodes.Status201Created)]
+        //[ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public ActionResult<Book> CreateAsync(Book book)
+        {
+            //if (product.Description.Contains("XYZ Widget"))
+            //{
+            //    return BadRequest();
+            //}
+            var req = this.ControllerContext.HttpContext.Request;
+             //bookService.Add(book);
+
+            return CreatedAtAction(book.id.ToString() , book);
+        }
     }
 }
