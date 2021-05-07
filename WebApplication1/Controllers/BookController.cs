@@ -7,7 +7,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Mime;
+using System.Text.Json;
 using System.Threading.Tasks;
+
 
 namespace WebApplication1.Controllers
 {
@@ -23,6 +25,7 @@ namespace WebApplication1.Controllers
         public BookController(ILogger<BookController> logger)
         {
             _logger = logger;
+            
         }
         
         [HttpGet]
@@ -34,18 +37,14 @@ namespace WebApplication1.Controllers
        
         [HttpPost]
         [Consumes(MediaTypeNames.Application.Json)]
-        //[ProducesResponseType(StatusCodes.Status201Created)]
-        //[ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public ActionResult<Book> CreateAsync(Book book)
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public ActionResult<Book> CreateAsync([FromBody]JsonElement body)
         {
-            //if (product.Description.Contains("XYZ Widget"))
-            //{
-            //    return BadRequest();
-            //}
-            var req = this.ControllerContext.HttpContext.Request;
-             //bookService.Add(book);
+            string json = JsonSerializer.Serialize(body);
+            var newBook = JsonSerializer.Deserialize<Book>(json);
 
-            return CreatedAtAction(book.id.ToString() , book);
+            return CreatedAtAction(string.Empty , null);
         }
     }
 }
