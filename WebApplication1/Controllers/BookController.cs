@@ -1,5 +1,6 @@
 ﻿using Aplicacion;
 using Dominio.Entities;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -9,7 +10,6 @@ using System.Linq;
 using System.Net.Mime;
 using System.Text.Json;
 using System.Threading.Tasks;
-
 
 namespace WebApplication1.Controllers
 {
@@ -27,7 +27,7 @@ namespace WebApplication1.Controllers
             _logger = logger;
             
         }
-        
+
         [HttpGet]
         public List<Book> Get()
         {
@@ -39,10 +39,11 @@ namespace WebApplication1.Controllers
         [Consumes(MediaTypeNames.Application.Json)]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public ActionResult<Book> CreateAsync([FromBody]JsonElement body)
+        public ActionResult<Book> CreateAsync([FromBody] JsonElement body)
         {
             string json = JsonSerializer.Serialize(body);
             var newBook = JsonSerializer.Deserialize<Book>(json);
+            bookService.Add(newBook);
 
             return CreatedAtAction(string.Empty , null);
         }
